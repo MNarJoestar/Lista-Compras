@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Compras</title>
+<link rel="stylesheet" href="CSSList.css">
+<script type="text/javascript" src="./index.js" defer=""></script>
+<link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+<h1>Lista de Compras</h1>
+<div class="items-form">
+<label for="form">
+<form id="shopping-list">
+<ul>
+<li>
+<span class="item-name">Lentejas</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+
+<input type="text" class="item-price" value="0.00">
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Arroz</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Harina de trigo</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Leche</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Pasta</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Cereal</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Frijoles</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Carne</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Pollo</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Queso</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Jamón</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Harina de maiz</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Mantequilla</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Huevos</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Condimentos</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Azucar</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Sal</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+<li>
+<span class="item-name">Yogurt</span>
+<div class="item-container">
+<input type="checkbox" class="item-checkbox" data-price="1.00">
+<span><input type="text" class="item-price" value="0.00"></span>
+</div>
+</li>
+<hr>
+</ul>
+<p class="total-price">Total: R$<span id="total-price"><span class="color-number">0.00</span></p>
+</form>
+
+<script>
+const checkboxes = document.querySelectorAll('.item-checkbox');
+const totalPriceElement = document.getElementById('total-price');
+
+checkboxes.forEach(checkbox => {
+checkbox.addEventListener('change', updateTotalPrice);
+});
+
+function updateTotalPrice() {
+let total = 0;
+checkboxes.forEach(checkbox => {
+if (checkbox.checked) {
+const price = parseFloat(checkbox.getAttribute('data-price'));
+const priceInput = checkbox.nextElementSibling;
+total += price * parseFloat(priceInput.value || 0);
+}
+});
+
+totalPriceElement.textContent = total.toFixed(2);
+}
+</script>
+</label>
+</div>
+
+<div>
+</div>
+</body>
+
+</html>
