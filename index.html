@@ -204,24 +204,6 @@ total += price * parseFloat(priceInput.value || 0);
 
 totalPriceElement.textContent = total.toFixed(2);
 }
-
-function descargarInformacion() {
-            var nombre = document.getElementById("nombre").value;
-            var compras = document.getElementById("compras").value;
-
-            // Crear el contenido del archivo de texto
-            var contenidoArchivo = "Nombre: " + nombre + "\n" +
-                "Lista de compras: " + compras;
-
-            // Crear un Blob (objeto binario) con el contenido del archivo
-            var blob = new Blob([contenidoArchivo], { type: "text/plain" });
-
-            // Crear un enlace de descarga y hacer clic en él
-            var enlaceDescarga = document.createElement("a");
-            enlaceDescarga.href = URL.createObjectURL(blob);
-            enlaceDescarga.download = "informacion_lista_compras.txt";
-            enlaceDescarga.click();
-        }
 </script>
 </label>
 </div>
@@ -229,6 +211,4 @@ function descargarInformacion() {
 <div>
 </div>
 </body>
-
-<input id="Descarga" type="button" value="Descargar" onclick="descargarInformacion()">
 </html>
