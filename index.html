@@ -374,43 +374,33 @@
 <div class="item-container">
 <input type="checkbox" class="item-checkbox" data-price="1.00">
 </li>
-</ul>
-        <p>Total: $<span id="total-price">0.00</span></p>
-    </form>
-<script>
-const checkboxes = document.querySelectorAll('.item-checkbox');
-const totalPriceElement = document.getElementById('total-price');
+  </ul>
+    <p class="total-price">Total: $<span id="total-price">0.00</span></p>
+    <input id="Fecha" type="date" value="Fecha">
+  </form>
 
-checkboxes.forEach(checkbox => {
-checkbox.addEventListener('change', updateTotalPrice);
-});
+  <script>
+    const checkboxes = document.querySelectorAll('.item-checkbox');
+    const totalPriceElement = document.getElementById('total-price');
 
-function updateTotalPrice() {
-let total = 0;
-checkboxes.forEach(checkbox => {
-if (checkbox.checked) {
-const price = parseFloat(checkbox.getAttribute('data-price'));
-const priceInput = checkbox.nextElementSibling;
-total += price * parseFloat(priceInput.value || 0);
-}
-});
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', updateTotalPrice);
+    });
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-</ul>
-<p class="total-price">Total: R$<span id="total-price"><span class="color-number">0.00</span></p>
-<input id="Fecha" type="date" value="Fecha">
-</form>
+    function updateTotalPrice() {
+      let total = 0;
+      checkboxes.forEach(checkbox => {
+        if (checkbox.checked) {
+          const price = parseFloat(checkbox.getAttribute('data-price'));
+          const priceInput = checkbox.nextElementSibling;
+          total += price * parseFloat(priceInput.value || 0);
+        }
+      });
 
-totalPriceElement.textContent = total.toFixed(2);
-}
-</script>
-</label>
-</div>
+      totalPriceElement.textContent = total.toFixed(2);
+    }
+  </script>
 
-<div>
-</div>
 </body>
+
 </html>
