@@ -1,411 +1,1769 @@
 <!DOCTYPE html>
+
+<html>
+
+ 
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lista de Compras</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<script type="text/javascript" src="./index.js" defer=""></script>
+
+<link rel="stylesheet" href="./index.css">
+
+ 
+
+</head>
+
+ 
+
+<body>
+
+<h1>Lista de Compras</h1>
+
+<div class="items-form">
+
+<label for="form">
+
+<form id="shopping-list">
+
+<ul>
+
+<li>
+
+<span class="item-name">Lentejas</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Arroz</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Harina de trigo</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Leche</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Leche en polvo</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Pasta</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Cereal</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Frijoles</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Carne</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Pollo</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Queso</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Jamón</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Harina de maiz</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Mantequilla</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Huevos</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Condimentos</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Azucar</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Sal</span>
+
+<<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Yogurt</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Chocolate</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Molho de tomate</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Cubitos</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Vinagre</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Lavaplatos</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Gelatina</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Polvo de hornear</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Crema de leche</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Leche condensada</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Arroz</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Suavizante</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Jabon en polvo</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Desinfectante</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Cloro</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Papel de cocina</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Hisopos</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Acondicionador</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Jabones de baño</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Afeitadoras</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Pasta dental</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+                <hr>
+
+<li>
+
+<span class="item-name">Modems</span>
+
+<div class="item-container">
+
+                        <select class="item-dropdown">
+
+                            <option value="1">1</option>
+
+                            <option value="2">2</option>
+
+                            <option value="3">3</option>
+
+                            <option value="4">4</option>
+
+                            <option value="5">5</option>
+
+                            <option value="6">6</option>
+
+                            <option value="7">7</option>
+
+                            <option value="8">8</option>
+
+                            <option value="9">9</option>
+
+                        </select>
+
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
+
+                        <input type="text" class="item-price" value="0.00">
+
+                    </div>
+
+                </li>
+
+  </ul>
+
+        <p>Total: $<span id="total-price">0.00</span></p>
+
+    </form>
+
+ 
+
+   <script>
+
+            const dropdowns = document.querySelectorAll('.item-dropdown');
+
+            const checkboxes = document.querySelectorAll('.item-checkbox');
+
+            const totalPriceElement = document.getElementById('total-price');
+
+ 
+
+            dropdowns.forEach(dropdown => {
+
+                dropdown.addEventListener('change', updateTotalPrice);
+
+            });
+
+ 
+
+            checkboxes.forEach(checkbox => {
+
+                checkbox.addEventListener('change', updateTotalPrice);
+
+            });
+
+ 
+
+            function updateTotalPrice() {
+
+                let total = 0;
+
+                checkboxes.forEach((checkbox, index) => {
+
+                    if (checkbox.checked) {
+
+                        const price = parseFloat(checkbox.getAttribute('data-price'));
+
+                        const priceInput = checkbox.closest('.item-container').querySelector('.item-price');
+
+                        const dropdownValue = parseInt(dropdowns[index].value);
+
+                        total += price * parseFloat(priceInput.value || 0) * dropdownValue;
+
+                    }
+
+                });
+
+ 
+
+                totalPriceElement.textContent = total.toFixed(2);
+
+            }
+
+        </script>
+
+    </div>
+
+</body>
+
+</html>
+
+ 
+
+ 
+
+ 
+
+
+PÚBLICA
+From: Mario José Ñarvares <marionar411@gmail.com>
+Sent: Thursday, December 7, 2023 8:59 AM
+To: Mario Jose Narvares Martinez - PrestServ <mario.jose.prestserv@petrobras.com.br>
+Subject:
+
+ 
+
+<!DOCTYPE html>
+
 <html>
 
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lista de Compras</title>
-<link rel="stylesheet" href="styles.css">
-<script type="text/javascript" src="./index.js" defer=""></script>
-<link rel="stylesheet" href="./index.css">
+
+    <title>Lista de Compras</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="./index.css">
 
 </head>
-  
 
 <body>
-<h1>Lista de Compras</h1>
-<div class="items-form">
-<label for="form">
-<form id="shopping-list">
-<ul>
-<li>
-<span class="item-name">Lentejas</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Arroz</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+    <h1>Lista de Compras</h1>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Harina de trigo</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+    <div class="items-form">
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Leche</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+        <form id="shopping-list">
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Leche en polvo</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            <ul>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Pasta</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                <li>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Cereal</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                    <span class="item-name">Lentejas</span>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Frijoles</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                    <div class="item-container">
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Carne</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                        <select class="item-dropdown">
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Pollo</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="1">1</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Queso</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="2">2</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Jamón</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="3">3</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Harina de maiz</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="4">4</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Mantequilla</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="5">5</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Huevos</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="6">6</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Condimentos</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="7">7</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Azucar</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="8">8</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Sal</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                            <option value="9">9</option>
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Yogurt</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                        </select>
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Chocolate</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                        <input type="checkbox" class="item-checkbox" data-price="1.00">
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Molho de tomate</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                        <input type="text" class="item-price" value="0.00">
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Cubitos</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                    </div>
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Vinagre</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                </li>
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Lavaplatos</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                <hr>
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Gelatina</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            </ul>
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Polvo de hornear</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            <p class="total-price">Total: $<span id="total-price">0.00</span></p>
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Crema de leche</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            <input id="Fecha" type="date" value="Fecha">
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Leche condensada</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+        </form>
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Arroz</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+ 
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Suavizante</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+        <script>
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Jabon en polvo</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            const dropdowns = document.querySelectorAll('.item-dropdown');
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Desinfectante</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            const checkboxes = document.querySelectorAll('.item-checkbox');
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Cloro</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            const totalPriceElement = document.getElementById('total-price');
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Papel de cocina</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+ 
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Hisopos</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            dropdowns.forEach(dropdown => {
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Acondicionador</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                dropdown.addEventListener('change', updateTotalPrice);
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Jabones de baño</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            });
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Afeitadoras</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+ 
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-<hr>
-<li>
-<span class="item-name">Pasta dental</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+            checkboxes.forEach(checkbox => {
 
-  <input type="text" class="item-price" value="0.00">
-</div>
-</li>
-  
-<hr>
-<li>
-<span class="item-name">Modems</span>
-<div class="item-container">
-<input type="checkbox" class="item-checkbox" data-price="1.00">
+                checkbox.addEventListener('change', updateTotalPrice);
 
-<input type="text" class="item-price" value="0.00">
-</div>
-</li>
-  
-  </ul>
-  
-    <p class="total-price">Total: $<span id="total-price">0.00</span></p>
-    <input id="Fecha" type="date" value="Fecha">
-  </form>
+            });
 
-  <script>
-  const checkboxes = document.querySelectorAll('.item-checkbox');
-  const totalPriceElement = document.getElementById('total-price');
+ 
 
-  checkboxes.forEach(checkbox => {
-    checkbox.addEventListener('change', updateTotalPrice);
-  });
+            function updateTotalPrice() {
 
-  function updateTotalPrice() {
-    let total = 0;
-    checkboxes.forEach(checkbox => {
-      if (checkbox.checked) {
-        const price = parseFloat(checkbox.getAttribute('data-price'));
-        const priceInput = checkbox.closest('.item-container').querySelector('.item-price');
-        total += price * parseFloat(priceInput.value || 0);
-      }
-    });
+                let total = 0;
 
-    totalPriceElement.textContent = total.toFixed(2);
-  }
-</script>
+                checkboxes.forEach((checkbox, index) => {
+
+                    if (checkbox.checked) {
+
+                        const price = parseFloat(checkbox.getAttribute('data-price'));
+
+                        const priceInput = checkbox.closest('.item-container').querySelector('.item-price');
+
+                        const dropdownValue = parseInt(dropdowns[index].value);
+
+                        total += price * parseFloat(priceInput.value || 0) * dropdownValue;
+
+                    }
+
+                });
+
+ 
+
+                totalPriceElement.textContent = total.toFixed(2);
+
+            }
+
+        </script>
+
+    </div>
 
 </body>
 
