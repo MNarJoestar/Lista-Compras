@@ -1,70 +1,61 @@
-label{
-    font-size:xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(0, 0, 0);
-    }
-    body {
-        background-color: rgba(12, 255, 73, 0.438);
-        background: linear-gradient(rgb(15, 190, 82), rgb(73, 255, 18), #20d109);
-        background-image: url(https://c7.alamy.com/compes/b64yxm/tabla-cargados-con-muchos-platos-y-platos-de-ensaladas-frescas-y-otros-alimentos-saludables-en-un-partido-uk-b64yxm.jpg);
-        background: fixed;
-        margin: 0;
-        padding: 0;
-      }
+h1{
+text-align: center;
+  font-family: "Seymour One", sans-serif;
+  font-size:350%;
+  font-weight: 400;
+  font-style: normal;
+
+color: rgba(99, 209, 209, 0.63);
+}
+
+h2{
+text-align: center;
+font-family: "Seymour One", sans-serif;
+font-size:200%;
+color: rgb(98, 191, 191);
+}
+
+body{
+  font-family: "Seymour One", sans-serif;
+background-color:aliceblue
+}
+.menu {
+  width: 80%;
+  background-color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 500px;
+  border-radius: 55px;
+}
+
+ nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin: 0;
+        }
+input{
+  text-align: center;
+  border-radius: 5px;
+  border-color: aqua;
+}
+
+button{
+  font-family: "Seymour One", sans-serif;
+ margin: 10px;
+color: aqua;
+border-radius: 3px;
+border-color: aqua;
+background-color: rgb(54, 54, 94);
+
+}
+footer{
+  background-color:black;
+  text-align: center;
+  font-family: "Seymour One", sans-serif;
+  margin: 0px 150px;
+  border-radius: 20%;
   
-      .items-form {
-        border: 3px solid;
-        border-color: rgb(41, 161, 11);
-        width: 90%;
-        max-width: 600px;
-        margin: auto;
-        box-shadow: 0 0 30px 0 rgb(0, 255, 157);
-        padding: 10px;
-      }
-  
-      h1 {
-        color: rgb(0, 0, 0);
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: larger;
-        font-weight: 300;
-        text-align: center;
-        text-transform: uppercase;
-      }
-  
-      li {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 0;
-        border-bottom: 1px solid rgb(41, 161, 11);
-      }
-  
-      .item-container {
-        display: flex;
-        align-items: center;
-      }
-  
-      .item-price {
-        width: 50px;
-      }
-  
-      .item-name {
-        flex: 1;
-        margin-right: 20px;
-      }
-  
-      .total-price {
-        text-align: center;
-      }
-  
-      hr {
-        margin-right: 0;
-        width: 100%;
-        border: none;
-        border-bottom: 1px solid rgb(41, 161, 11);
-      }
-  
-      .color-number {
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+}
