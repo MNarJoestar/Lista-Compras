@@ -1,0 +1,56 @@
+h1{
+text-align: center;
+  font-family: "Seymour One", sans-serif;
+  font-size:350%;
+  font-weight: 400;
+  font-style: normal;
+
+color: rgba(99, 209, 209, 0.63);
+}
+
+h2{
+text-align: center;
+font-family: "Seymour One", sans-serif;
+font-size:200%;
+color: rgb(98, 191, 191);
+}
+
+body{
+  font-family: "Seymour One", sans-serif;
+background-color:aliceblue
+}
+.menu {
+  width: 80%;
+  background-color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 500px;
+  border-radius: 55px;
+}
+
+
+
+input{
+  text-align: center;
+  border-radius: 5px;
+  border-color: aqua;
+}
+
+button{
+  font-family: "Seymour One", sans-serif;
+ margin: 10px;
+color: aqua;
+border-radius: 3px;
+border-color: aqua;
+background-color: rgb(54, 54, 94);
+
+}
+footer{
+  background-color:black;
+  text-align: center;
+  font-family: "Seymour One", sans-serif;
+  margin: 0px 150px;
+  border-radius: 20%;
+
+}
