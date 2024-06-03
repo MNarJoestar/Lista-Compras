@@ -29,13 +29,6 @@ background-color:aliceblue
   border-radius: 55px;
 }
 
-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 10vh;
-            margin: 0;
-  }
 
 input{
   text-align: center;
