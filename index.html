@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="stylesheet.css">
 
     <script type="text/javascript" src="./index.js" defer=""></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
@@ -137,7 +136,7 @@
               cantidad
             } = listaCompras[seccion][i];
             const subtotal = precio * cantidad;
-            listaDiv.innerHTML += `<p>${elemento} (${cantidad} unidades) x ${precio}: $${subtotal.toFixed(2)} <button onclick="eliminarElemento('${seccion}', ${i})">Ya no</button></p>`;
+            listaDiv.innerHTML += `<p>${elemento} (${cantidad} Unidad(es)) x ${precio}: $${subtotal.toFixed(2)} <button onclick="eliminarElemento('${seccion}', ${i})">Ya no</button></p>`;
             precioTotal += subtotal;
           }
         }
