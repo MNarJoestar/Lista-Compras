@@ -1,4 +1,4 @@
-h1{
+  h1{
 text-align: center;
   font-family: "Seymour One", sans-serif;
   font-size:350%;
@@ -17,7 +17,8 @@ color: rgb(98, 191, 191);
 
 body{
   font-family: "Seymour One", sans-serif;
-background-color:aliceblue
+background-color:rgb(0, 28, 187);
+color: rgb(98, 191, 191);
 }
 .menu {
   width: 80%;
@@ -28,7 +29,6 @@ background-color:aliceblue
   max-width: 550px;
   border-radius: 55px;
 }
-
 
 input{
   text-align: center;
@@ -46,7 +46,7 @@ background-color: rgb(54, 54, 94);
 
 }
 footer{
-  background-color:black;
+  background-color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Seymour One", sans-serif;
   margin: 0px 150px;
