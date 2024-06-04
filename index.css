@@ -4,7 +4,8 @@ text-align: center;
   font-size:350%;
   font-weight: 400;
   font-style: normal;
-
+max-width: fit-content;
+max-height: fit-content;
 color: rgba(99, 209, 209, 0.63);
 }
 
