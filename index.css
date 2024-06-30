@@ -12,7 +12,7 @@ text-align: center;
 
  
 
-color: rgba(18, 0, 182, 0.63);
+color: rgb(249, 249, 249);
 
 }
 
@@ -26,7 +26,7 @@ font-family: "Seymour One", sans-serif;
 
 font-size:200%;
 
-color: rgb(2, 177, 177);
+color: rgb(0, 65, 246);
 
 }
 
@@ -42,7 +42,7 @@ body{
 
   font-family: "Seymour One", sans-serif;
 
-background-color:rgb(0, 0, 0)
+background-color:rgb(44, 44, 53)
 
 }
 
@@ -50,7 +50,7 @@ p{
 
 font-family: "Seymour One", sans-serif;
 
-color: rgb(98, 191, 191);
+color: rgb(0, 0, 0);
 
 text-align: center;}
 
@@ -58,7 +58,7 @@ text-align: center;}
 
   width: 80%;
 
-  background-color:  rgb(0, 60, 255);
+  background-color:  rgb(1, 194, 242);
 
   margin-left: auto;
 
@@ -67,6 +67,10 @@ text-align: center;}
   padding: 10px;
 
   max-width: 550px;
+  
+  border: 10px;
+  
+  border-color: black;
 
   border-radius: 55px;
 
@@ -82,7 +86,10 @@ input{
 
   border-color: aqua;
 
-  background-color: rgb(255, 255, 255);
+color: white;
+  background-color: rgb(8, 8, 8);
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -94,13 +101,13 @@ button{
 
 margin: 10px;
 
-color: aqua;
+color: rgb(0, 3, 11);
 
 border-radius: 3px;
 
-border-color: aqua;
+border-color: rgb(0, 0, 0);
 
-background-color: rgb(54, 54, 94);
+background-color: rgb(8, 0, 255);
 
  
 
@@ -134,4 +141,9 @@ footer{
 
  
 
+}
+legend{
+  color:aqua;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
 }
